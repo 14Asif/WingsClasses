@@ -1,0 +1,2 @@
+create table Student_Registration(reg_id int primary key not null identity(1,1),First_Name varchar(20),Middle_Name varchar(20),Last_Name varchar(30), Birthdate date,Gender varchar(20),Address1 varchar(50),Address2 varchar(50),City varchar(20),State varchar(20),zip_code int, Student_mail varchar(50),Parent_Email varchar(50),Student_Number varchar(12),Parent_Number varchar(12),Courses varchar(20),comments varchar(100));
+
